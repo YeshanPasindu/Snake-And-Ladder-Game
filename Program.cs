@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("-----------------------------------------------------");
-            Console.WriteLine("               Snake and Ladder Game                 ");
-            Console.WriteLine("-----------------------------------------------------");
+            Console.WriteLine("------------------------------------------------------------------------------------");
+            Console.WriteLine("                                 Snake and Ladder Game                              ");
+            Console.WriteLine("------------------------------------------------------------------------------------");
 
             string player1Name;
             string player2Name;
@@ -112,9 +112,10 @@
                 }
                 
 
-            } while (!(playerTotal >= 100));
+            } while (!(playerTotal >= 10));
 
             Console.WriteLine(playerName + "is the WINNER ");
+            Console.ReadLine();
         }
     }
 }
